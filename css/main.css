@@ -92,6 +92,7 @@ html {
 /**************** Content *****************/
 .content {
     position: absolute;
+    display: none;
     top: 108px;
     bottom: 290px;
     width: 100%;
@@ -100,16 +101,18 @@ html {
 .content:before {
     content: '';
     position: absolute;
-    top: 60px;
-    left: 88px;
-    width: 960px;
-    height: 608px;
+    top: 70px;
+    left: 108px;
+    width: 928px;
+    height: 573px;
     background: rgba(0, 0, 0, .5);
     -webkit-transform: skewX(10deg);
     -moz-transform: skewX(10deg);
     -o-transform: skewX(10deg);
     -ms-transform: skewX(10deg);
     transform: skewX(10deg);
+    -webkit-box-shadow: 0 0 80px 30px rgba(0, 0, 0, .6);
+    -moz-box-shadow: 0 0 80px 30px rgba(0, 0, 0, .6);
     box-shadow: 0 0 80px 30px rgba(0, 0, 0, .6);
 }
 

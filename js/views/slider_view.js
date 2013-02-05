@@ -59,6 +59,8 @@ define([
             
             this.check(0);
             this.slide(0);
+            
+            $('.content').show();
         },
 
 
