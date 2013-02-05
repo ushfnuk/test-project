@@ -97,6 +97,22 @@ html {
     width: 100%;
 }
 
+.content:before {
+    content: '';
+    position: absolute;
+    top: 60px;
+    left: 88px;
+    width: 960px;
+    height: 608px;
+    background: rgba(0, 0, 0, .5);
+    -webkit-transform: skewX(10deg);
+    -moz-transform: skewX(10deg);
+    -o-transform: skewX(10deg);
+    -ms-transform: skewX(10deg);
+    transform: skewX(10deg);
+    box-shadow: 0 0 80px 30px rgba(0, 0, 0, .6);
+}
+
 
 /**************** Info ********************/
 .info {
