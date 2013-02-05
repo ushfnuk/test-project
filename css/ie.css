@@ -1,0 +1,11 @@
+.b-slider__prev, .b-slider__next {
+    filter: alpha(opacity=50);
+}
+
+.b-slider__prev:hover, .b-slider__next:hover {
+    filter: alpha(opacity=80);
+}
+
+.b-slider__prev_disabled, .b-slider__next_disabled {
+    filter: alpha(opacity=20) !important;
+}
