@@ -98,11 +98,6 @@ define([
         check: function(pos) {
             var me = this;
             
-            if (this.collection.length < this.MAX_SLIDES) {
-                this.sliderNav.addClass('slider__prev_disabled');
-                this.slide(0);
-            }
-            
             if (pos >= 0) {
                 pos = 0;
                 this.sliderPrev.addClass('slider__prev_disabled')
@@ -119,6 +114,12 @@ define([
             } else {
                 this.sliderNext.removeClass('slider__prev_disabled')
                     .on('click', _.bind(me.slideRight, me));
+            }
+            
+            if (this.collection.length < this.MAX_SLIDES) {
+                this.sliderNav.addClass('slider__prev_disabled')
+                    .off('click');
+                pos = 0;
             }
             
             return pos;

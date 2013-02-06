@@ -22,7 +22,8 @@ require.config({
             deps: ['text', 'jquery', 'underscore', 'backbone'],
             exports: 'AppRouter'
         }
-    }
+    },
+    waitSeconds: 10
 });
 
 var TestProject = {};
