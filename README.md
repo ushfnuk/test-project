@@ -6,6 +6,6 @@
   * Выбираем фильм
   * Смотрим фильм (услуга платная), либо трейлер к фильму
 
-Приложение доступно [по адресу](https://c9.io/ushfnuk/test-project/workspace/index.html)
+Приложение доступно [по адресу](https://preview.c9users.io/ushfnuk/test-project/index.html?_c9_id=livepreview1&_c9_host=https://ide.c9.io)
 
 Пользуйтесь с удовольствием!
